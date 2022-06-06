@@ -2,7 +2,50 @@ html {
     font-size: 16px;
 }
 
+main {
+    margin: 10%;
+    max-width: 50%;
+}
 
 .container {
-    padding: 2rem;
+    padding: 4rem;
+    margin: 0 10%;
+}
+
+.form-group {
+    padding: 0.75em 0;
+}
+
+#formDates {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar{
+    background-color: #183889;
+    height: 9em;
+}
+
+.btnSubmit {
+    background-color: #183889;
+}
+
+#btnSubmit {
+    background-color: #183889;
+}
+
+.pop-up-h1 {
+    Color: #183889;
+    Font-weight:700;
+    margin-top: -3em;
+}
+
+.container label {
+    Color: #183889;
+    Font-weight: 600;
+}
+
+#company-logo {
+    justify-content: left;
+    width: 25%;
 }
