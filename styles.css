@@ -4,5 +4,16 @@ html {
 
 
 .container {
-    padding: 2rem;
+    padding: 4rem;
+}
+
+.form-group {
+    padding: 0.75em 0;
+}
+
+.formDates {
+    display: inline-block;
+}
+
+#assignedDate {
 }
