@@ -4,13 +4,12 @@ html {
 
 main {
     margin: 10%;
+    max-width: 50%;
 }
 
 .container {
     padding: 4rem;
-    margin: 5% 10%;
-
-    background-color: blue;
+    margin: 0 10%;
 }
 
 .form-group {
@@ -22,5 +21,31 @@ main {
     justify-content: space-between;
 }
 
-#assignedDate {
+.navbar{
+    background-color: #183889;
+    height: 9em;
+}
+
+.btnSubmit {
+    background-color: #183889;
+}
+
+#btnSubmit {
+    background-color: #183889;
+}
+
+.pop-up-h1 {
+    Color: #183889;
+    Font-weight:700;
+    margin-top: -3em;
+}
+
+.container label {
+    Color: #183889;
+    Font-weight: 600;
+}
+
+#company-logo {
+    justify-content: left;
+    width: 25%;
 }
