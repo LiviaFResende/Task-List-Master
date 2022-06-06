@@ -1,7 +1,19 @@
+/* GENERAL RULES */
 html {
     font-size: 16px;
 }
 
+
+/* HEADER > NAVBAR */
+.mynavbar {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background: #183889;
+    padding: 2%;
+}
+
+/*  MAIN AND CARDS */
 main {
     margin: 10%;
     max-width: 50%;
@@ -11,6 +23,7 @@ main {
     padding: 4rem;
     margin: 0 10%;
 }
+
 
 .form-group {
     padding: 0.75em 0;
@@ -47,6 +60,6 @@ main {
 
 #company-logo {
     float: left;
-    width: 200px;
+    width: 20%;
     margin-left: 2em;
 }

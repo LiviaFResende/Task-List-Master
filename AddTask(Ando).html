@@ -12,81 +12,86 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar">
             <img src="Images\Task2go Logo.png" alt="company logo" id="company-logo">
-            <p>LOGO</p>
-            <a class="navbar-brand" href="#">Navbar</a>
+            <div>
+                <img src="#" alt="exit" id="exit">
+                <img src="#" alt="edit" id="edit">
+            </div>
         </nav>
 
     </header>
     <main>
         <div class="container">
-                <h1 class="pop-up-h1">ADD NEW TASK</h1>
-                <form>
-                    <div class="form-group">
+            <h1 class="pop-up-h1">ADD NEW TASK</h1>
+            <form>
+                <div class="form-group">
                     <label for="taskName">Task Name</label>
                     <input type="text" class="form-control" id="addTaskName" placeholder="Task Name">
-                    </div>
-                    <div class="form-group">
-                        <label for="taskDescription">Task Description</label>
-                        <textarea class="form-control" id="taskDescription" rows="3" placeholder="Task Description"></textarea>
-                    </div>
-                    
-                    <div class="input-group">
-                        <label for="assignedTo">Assigned To</label>
-                        <select class="custom-select" id="inputGroupSelect02">
+                </div>
+                <div class="form-group">
+                    <label for="taskDescription">Task Description</label>
+                    <textarea class="form-control" id="taskDescription" rows="3"
+                        placeholder="Task Description"></textarea>
+                </div>
+
+                <div class="input-group">
+                    <label for="assignedTo">Assigned To</label>
+                    <select class="custom-select" id="inputGroupSelect02">
                         <option selected>Choose...</option>
                         <option value="1">Edom</option>
                         <option value="2">Livia</option>
                         <option value="3">Ando</option>
-                        </select>
+                    </select>
                     <div class="input-group-append">
                         <label class="input-group-text" for="inputGroupSelect02">Add</label>
-                        </div>
                     </div>
+                </div>
 
-                    <div id="formDates">
-                        <div>
-                            <form action="/action_page.php">
+                <div id="formDates">
+                    <div>
+                        <form action="/action_page.php">
                             <label for="assignedDate">Assigned Date</label>
                             <input type="date" id="assignedDate" name="assignedDate">
-                            </form>                    
-                        </div>
+                        </form>
+                    </div>
 
-                        <div>
-                            <form action="/action_page.php">
+                    <div>
+                        <form action="/action_page.php">
                             <label for="dueDate">Due Date</label>
                             <input type="date" id="dueDate" name="dueDate">
-                            </form>
-                        </div>
-
+                        </form>
                     </div>
-            
-                    <div class="input-group form-group">
-                        <label for="status">Status</label>
-                        <select class="custom-select" id="statusSelector">
+
+                </div>
+
+                <div class="input-group form-group">
+                    <label for="status">Status</label>
+                    <select class="custom-select" id="statusSelector">
                         <option selected>Choose...</option>
                         <option value="1">To Do</option>
                         <option value="2">In Progress</option>
                         <option value="3">Review</option>
                         <option value="4">Done</option>
-                        </select>
-                    </div>
+                    </select>
+                </div>
 
-                    <div class="formSubmitButtons">
-                        <button type="submit" class="btn btn-primary">Reset</button>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </div>
-                    
-                    <div>
-                        <br>
-                        <a href="#"><p>Delete Task</p></a>
-                    </div>
-                </form>
-            </div>
+                <div class="formSubmitButtons">
+                    <button type="submit" class="btn btn-primary">Reset</button>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+
+                <div>
+                    <br>
+                    <a href="#">
+                        <p>Delete Task</p>
+                    </a>
+                </div>
+            </form>
+        </div>
     </main>
-    
-   
+
+
 
 
 

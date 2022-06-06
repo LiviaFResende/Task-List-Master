@@ -13,28 +13,24 @@
 <body>
     <header>
         <!-- BOOTSTRAP NAV-BAR -->
+        <nav class="mynavbar">
+            <!-- add the brand -->
+            <a class="navbar-brand" href="#">
+                <img src="Images\Task2go Logo.png" width="30rem" height="30rem" alt="company-logo" id="company-logo">
+            </a>
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-#183889">
-            <a class="navbar-brand" href="#">Task2Go</a>
-            <input class="btn btn-primary" type="button" value="Create your task">
+            <!-- add the search bar -->
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
 
-
-            <div id="icons" alt="icons">
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-                <img src="C:\Users\livia\Desktop\GA_JWD08\GW-JWD08 - 1ST FINAL PROJECT - Andos computer\Task-List-Master\Icons\Bell.png"
-                    alt="Message">
-                <img src="C:\Users\livia\Desktop\GA_JWD08\GW-JWD08 - 1ST FINAL PROJECT - Andos computer\Task-List-Master\Icons\Letter.jpg"
-                    alt="Alerts">
-                <img src="" alt="Profile">
-            </div>
+            <!-- add the button -->
+            <form class="form-inline">
+                <a href="AddTask(Ando).html" class="btn btn-primary btn-lg active" role="button"
+                    aria-pressed="true">CREATE A TASK</a>
+            </form>
         </nav>
-
-        <!--   add this to CSS:  nav { display: flex; justify-content: space-between; background-color: #183889} -->
-        <!--  add this for the div  #icons { display: inline; padding: 1rem;}-->
-
 
     </header>
     <h1>Task List Master</h1>
@@ -43,7 +39,6 @@
         <!-- BOOSTRAP CARDS GROUP  -->
         <div class="container">
             <div class="card-group">
-
 
                 <!-- CARD 1 -->
                 <div class="card" style="width: 18rem;">
@@ -58,7 +53,6 @@
                     </div>
                 </div>
 
-
                 <!-- CARD 2 -->
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">
@@ -71,7 +65,6 @@
                         <a href="#" class="card-link">Another link</a>
                     </div>
                 </div>
-
 
                 <!-- CARD 3 -->
                 <div class="card" style="width: 18rem;">
