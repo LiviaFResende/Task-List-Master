@@ -2,17 +2,24 @@ html {
     font-size: 16px;
 }
 
+main {
+    margin: 10%;
+}
 
 .container {
     padding: 4rem;
+    margin: 5% 10%;
+
+    background-color: blue;
 }
 
 .form-group {
     padding: 0.75em 0;
 }
 
-.formDates {
-    display: inline-block;
+#formDates {
+    display: flex;
+    justify-content: space-between;
 }
 
 #assignedDate {
