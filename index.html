@@ -13,7 +13,7 @@
 <body>
     <header>
         <!-- BOOTSTRAP NAV-BAR -->
-        <nav class="mynavbar">
+        <nav class="navbar" id="task-navbar">
             <!-- add the brand -->
             <a class="navbar-brand" href="#">
                 <img src="Images\Task2go Logo.png" width="30rem" height="30rem" alt="company-logo" id="company-logo">
@@ -37,48 +37,75 @@
     <main>
 
         <!-- BOOSTRAP CARDS GROUP  -->
-        <div class="container">
+        <div class="container-index">
+
             <div class="card-group">
 
                 <!-- CARD 1 -->
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
+                        <h5 class="card-title">Add New Task</h5>
+                        <!-- NAME  -->
+                        <div class="form-group">
+                            <label for="taskName">Task Name</label>
+                            <input type="text" class="form-control" id="addTaskName" placeholder="Task Name">
+                        </div>
+                        <!--  DESCRIPTION  -->
+                        <div class="form-group">
+                            <label for="taskDescription">Task Description</label>
+                            <textarea class="form-control" id="taskDescription" rows="3"
+                                placeholder="Task Description"></textarea>
+                        </div>
+                        <!-- ASSIGNED TO -->
+                        <div class="input-group form-group">
+                            <label for="assignedTo">Assigned To</label>
+                            <select class="custom-select padding-form-3" id="inputGroupSelect02">
+                                <option selected>Choose...</option>
+                                <option value="1">Edom</option>
+                                <option value="2">Livia</option>
+                                <option value="3">Ando</option>
+                            </select>
+                        </div>
+                        <!-- DUE DATES -->
+                        <form action="/action_page.php">
+                            <label for="dueDate">Due Date</label>
+                            <input type="date" id="dueDate" name="dueDate">
+                        </form>
                     </div>
-                </div>
-
-                <!-- CARD 2 -->
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
+                    <!--  STATUS -->
+                    <div class="input-group form-group">
+                        <label for="status">Status</label>
+                        <select class="custom-select" id="statusSelector">
+                            <option selected>Choose...</option>
+                            <option value="1">To Do</option>
+                            <option value="2">In Progress</option>
+                            <option value="3">Review</option>
+                            <option value="4">Done</option>
+                        </select>
                     </div>
-                </div>
-
-                <!-- CARD 3 -->
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
-                    </div>
+                    <a href="#" class="card-link">More Details</a>
                 </div>
             </div>
+
+
+            <!-- CARD 2 -->
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Add New Task</h5>
+
+                    <a href="#" class="card-link">More Details</a>
+                </div>
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Add New Task</h5>
+
+                    <a href="#" class="card-link">More Details</a>
+                </div>
+            </div>
+        </div>
         </div>
 
     </main>
