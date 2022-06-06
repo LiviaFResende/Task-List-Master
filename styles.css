@@ -46,6 +46,7 @@ main {
 }
 
 #company-logo {
-    justify-content: left;
-    width: 25%;
+    float: left;
+    width: 200px;
+    margin-left: 2em;
 }
