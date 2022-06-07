@@ -15,8 +15,8 @@
         <nav id="task-navbar">
             <img src="Images\Task2go Logo.png" alt="company logo" id="company-logo">
             <div class="float-rigth">
-                <img src="#" alt="exit-button" id="exit">
-                <img src="#" alt="edit-button" id="edit">
+               <a href="#"> <img src="./Icons/Untitled-1-02.png"  alt="exit-button" id="exit"></a>
+                <a href="#"><img src="./Icons/Untitled-1-01.png" alt="edit-button" id="edit"></a>
                 <!--  add those 2 images to CSS -->
 
             </div>
@@ -24,52 +24,52 @@
 
     </header>
     <main>
-        <div class="container-form">
+        <div class="container-form mb-2">
             <h1 class="pop-up-h1">ADD NEW TASK</h1>
-            <form>
+            <form class="w-100">
 
                 <!-- NAME  -->
-                <div class="form-group">
+                <div class="form-group text-primary d-flex">
                     <label for="taskName">Task Name</label>
-                    <input type="text" class="form-control" id="addTaskName" placeholder="Task Name">
+                    <input type="text" class="form-control shift-margin-right" id="addTaskName" placeholder="Task Name">
                 </div>
 
                 <!--  DESCRIPTION  -->
-                <div class="form-group">
+                <div class="form-group  text-primary d-flex">
                     <label for="taskDescription">Task Description</label>
                     <textarea class="form-control" id="taskDescription" rows="3"
                         placeholder="Task Description"></textarea>
                 </div>
 
                 <!-- ASSIGNED TO -->
-                <div class="input-group form-group">
-                    <label  class="padding-form-3" for="assignedTo">Assigned To</label>
+                <div class="input-group form-group text-primary">
+                    <label  class="padding-form-1 shift-margin-right" for="assignedTo">Assigned To</label>
                     <select class="custom-select padding-form-3" id="inputGroupSelect02">
                         <option selected>Choose...</option>
                         <option value="1">Edom</option>
                         <option value="2">Livia</option>
                         <option value="3">Ando</option>
                     </select>
-                    <div class="input-group-append padding-form-3">
-                        <label class="input-group-text" for="inputGroupSelect02">Add</label>
+                    <div class="input-group-append padding-form-3 bg-primary">
+                        <label class="input-group-text bg-primary text-white px-5" for="inputGroupSelect02">Add</label>
                     </div>
                 </div>
 
                 <!-- ASSIGNED DATES -->
-                <div id="formDates" class="form-group">
-                        <form class="padding-form" action="/action_page.php">
+                <div id="formDates" class="form-group text-primary float-left">
+                        <form class="padding-form-3" action="/action_page.php">
                             <label for="assignedDate">Assigned Date</label>
-                            <input type="date" id="assignedDate" name="assignedDate">
+                            <input class="shift-margin-right" type="date" id="assignedDate" name="assignedDate">
                         </form>
-                        <form class="padding-form" action="/action_page.php">
+                        <form class="padding-form text-primary float-left" action="/action_page.php">
                             <label for="dueDate">Due Date</label>
                             <input type="date" id="dueDate" name="dueDate">
                         </form>
                 </div>
 
-                <div class="input-group form-group">
-                    <label class="padding-form-3" for="status">Status</label>
-                    <select class="custom-select padding-form-3" id="statusSelector">
+                <div class="input-group form-group text-primary float-left">
+                    <label class="padding-form-1 shift-margin-right" for="status">Status</label>
+                    <select class="custom-select padding-form-3 " id="statusSelector">
                         <option selected>Choose...</option>
                         <option value="1">To Do</option>
                         <option value="2">In Progress</option>
@@ -79,8 +79,8 @@
                 </div>
 
                 <div class="formSubmitButtons form-group">
-                    <button type="submit" class="btn btn-primary">Reset</button>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary px-5 ">Reset</button>
+                    <button type="submit" class="btn btn-primary px-5 mx-5">Submit</button>
                 </div>
 
                 <div>
