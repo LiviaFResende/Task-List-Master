@@ -48,18 +48,45 @@ h1 {
     color: #183889;
 }
 
-/*  INDEX.HTML  */
+
+/*  ---------   INDEX.HTML   --------- */
 .container-index {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .container-index > .card-group > .card {
     margin: 0 2rem;
 }
 
+.card-group {
+    display: flex;
+    flex-wrap: row wrap; !important;
+  }
 
-/*  FORM.HTML*/
+  #card-1:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: rgba(173, 216, 230, 0.415);
+}
+.card-title {
+    background-color: #183889;
+    color:white;
+    padding: 2rem;
+}
+.card-body-task {
+    text-align: center;
+    color: #183889;
+    padding-top: 50%;
+}
+.card-body-task img{
+    align-items: center;
+    width: 50%;
+    vertical-align: middle;
+    
+}
+
+
+/*  ----------  FORM.HTML   ---------  */
 .container-form {
     padding: 10rem 2rem;
     margin: 0 10rem;
@@ -110,27 +137,7 @@ h1 {
 #addTaskName {
     display: inline;
 }
-#card-1:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-    background-color: rgba(173, 216, 230, 0.415);
-}
-.card-title {
-    background-color: #183889;
-    color:white;
-    padding: 2rem;
-}
-.card-body-task {
-    text-align: center;
-    color: #183889;
-    padding-top: 50%;
-}
-.card-body-task img{
-    align-items: center;
-    width: 50%;
-    vertical-align: middle;
-    
-}
+
 .shift-margin-right {
     margin-right: 4%;
 }
